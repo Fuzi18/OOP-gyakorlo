@@ -3,18 +3,23 @@ let valami = {
   hossz: 90,
 
 }
-class Osztaly{
-  zene = document.getElementById();
-  hossz = document.getElementById();
-  list = {
-    
+class Zene{
+  constructor(cim, hossz) {
+    this.cim = cim;
+    this.hossz = hossz
+    list.push(this)
   }
+  
+  
 }
 
-function gomb() {
-  list = new Osztaly();
-  list.zene = document.getElementById();
-  list.hossz = document.getElementById();
+function klikk() {
+  list = new Zene();
+  let.zene = document.getElementById('cim').value;
+  
   let hossz = parseFloat(document.getElementById('mp').value);
+  let zene = new Zene(cim, hossz);
+  document.getElementById('ki').textContent
 
 }
+let list = [];
